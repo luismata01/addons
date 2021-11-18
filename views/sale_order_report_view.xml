@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="report_saleorder_document_inherit" inherit_id="sale.report_saleorder_document">
+		<xpath expr="//table[hasclass('o_main_table')]/thead/tr/th[1]" position="after">
+			<th>Note</th>
+		</xpath>
+		<xpath expr="//table[hasclass('o_main_table')]/tbody/t/tr[1]/t/td[1]" position="after">
+			<td><span t-field="line.note"/></td>
+			
+		</xpath>
+			
+	</template>
+</odoo>

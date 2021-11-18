@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+ 
+
+
+
+    <menuitem
+        id="comandera_report"
+        name="Pedidos Comandera"
+        parent="sales_team.menu_base_partner" 
+        sequence="20"/>
+        <!-- parent="menu_reporting" -->
+</odoo>
+

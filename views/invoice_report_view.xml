@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="report_invoice_note" 
+		inherit_id="account.report_invoice_document">
+		<xpath expr="//table[@name='invoice_line_table']/thead/tr/th[2]" position="after">
+			<th>Note</th>
+		</xpath>
+		<xpath expr="//table[@name='invoice_line_table']/tbody/t/tr/t/td[1]" position="after">
+			<td><span t-field="line.note"/></td>
+		</xpath>
+	</template>
+</odoo>

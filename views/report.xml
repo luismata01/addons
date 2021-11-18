@@ -1,0 +1,8 @@
+
+
+<t t-call="web.internal.layout"/>
+
+
+    
+</t>
+
